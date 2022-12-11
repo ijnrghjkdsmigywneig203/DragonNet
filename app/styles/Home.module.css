@@ -1,0 +1,81 @@
+.container {
+  background-color: var(--background-color);
+
+  display: flex;
+  flex-direction: column;
+  color: #eeeeee;
+  align-items: center;
+  gap: 3rem;
+  padding: 5rem;
+  height: 100vh;
+}
+
+.header {
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  align-self: center;
+  text-align: center;
+}
+
+.gradient {
+  background: linear-gradient(to right, #f12711, #f5af19);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.body {
+  display: flex;
+  gap: 10rem;
+  text-align: center;
+}
+
+.form {
+  padding: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 0.5rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.value {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-gradient {
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  font-size: 1.5rem;
+}
+
+
+.value input {
+  all: unset;
+  padding: 0.5rem;
+  padding-left: 0;
+  padding-top: 0.2;
+  font-weight: bold;
+}
+
+.value h3 {
+  font-size: 1.2rem;
+}
+
+.button {
+  all: unset;
+  padding: 0.5rem;
+
+  border-radius: 0.5rem;
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+  cursor: pointer;
+}
+
+.button:disabled {
+  opacity: 0.7;
+}
